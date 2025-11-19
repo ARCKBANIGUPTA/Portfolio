@@ -6,7 +6,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "sass --load-path=node_modules src/styles.scss style.css"
+    "build": "parcel build index.html --dist-dir dist"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/cobiwave/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
-    "parcel": "^2.8.2",
+    "parcel": "^2.16.1",
     "prettier": "^2.8.1"
   },
   "dependencies": {
